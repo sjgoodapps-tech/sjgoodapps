@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#143039">
+  <title>sjgoodapps | Style guide</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="sjgoodapps home">sjgoodapps</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#apps">Apps</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="container guide" tabindex="-1">
+    <p class="eyebrow">Design reference</p>
+    <h1>sjgoodapps style guide</h1>
+    <p>Use this guide for changes to the website. The colours and typefaces come from the <a href="https://oneglp.app/">OneGLP website</a>. All public pages share <code>assets/site.css</code>.</p>
+
+    <section aria-labelledby="direction-title">
+      <h2 id="direction-title">Design approach</h2>
+      <p>Use app names, real app icons, short descriptions and clear links.</p>
+      <ul>
+        <li>Use the OneGLP website's dark blue header, white text and teal buttons. Keep the app sections white.</li>
+        <li>Separate sections with fine rules. Keep corners small and leave out decorative shadows.</li>
+        <li>Use the serif for the homepage headline and app names. Use the sans serif for body text and navigation.</li>
+        <li>Use plain headings. Do not add slogans or filler.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="colours-title">
+      <h2 id="colours-title">Colours</h2>
+      <div class="swatches">
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--deep)"></div><figcaption><strong>Dark blue</strong><code>#143039 · --deep</code>Header gradient and headings</figcaption></figure>
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--teal)"></div><figcaption><strong>Teal</strong><code>#1f786f · --teal</code>Links, labels and focus outlines</figcaption></figure>
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--surface)"></div><figcaption><strong>Soft white</strong><code>#f3f6f4 · --surface</code>Contact and example backgrounds</figcaption></figure>
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--paper)"></div><figcaption><strong>Page white</strong><code>#fbfcfb · --paper</code>Page background</figcaption></figure>
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--ink)"></div><figcaption><strong>Ink</strong><code>#172126 · --ink</code>Body text</figcaption></figure>
+        <figure class="swatch"><div class="swatch-color" style="--swatch: var(--muted)"></div><figcaption><strong>Muted</strong><code>#5b6a70 · --muted</code>Supporting text</figcaption></figure>
+      </div>
+      <p>The introduction uses OneGLP's header gradient: <code>#0d1519</code>, <code>#143039</code> and <code>#18444a</code>. Its text is <code>#eff8f6</code>, with links in <code>#9fe5d7</code>. The navigation background is <code>#0d1d22</code>.</p>
+      <p>Use <code>--line: #d5dfdb</code> for dividers and <code>--white: #ffffff</code> for app sections and button text. Text colours meet WCAG AA contrast on their backgrounds.</p>
+    </section>
+
+    <section aria-labelledby="type-title">
+      <h2 id="type-title">Typography</h2>
+      <div class="type-example">
+        <p class="display">Apps by sjgoodapps</p>
+        <p>Use Manrope for app descriptions and policy text.</p>
+      </div>
+      <table>
+        <thead><tr><th scope="col">Use</th><th scope="col">Typeface</th><th scope="col">Size</th></tr></thead>
+        <tbody>
+          <tr><td>Homepage headline</td><td>Fraunces, 600</td><td>40 to 60 px</td></tr>
+          <tr><td>App names</td><td>Fraunces, 600</td><td>28 to 35 px</td></tr>
+          <tr><td>Document headings</td><td>Fraunces, 600</td><td>36 to 48 px</td></tr>
+          <tr><td>Body copy</td><td>Manrope, 400</td><td>16 px, line height 1.7</td></tr>
+          <tr><td>Links and navigation</td><td>Manrope, 600 or 700</td><td>13 to 14 px</td></tr>
+          <tr><td>Category labels</td><td>Manrope, 800</td><td>12 px, uppercase</td></tr>
+        </tbody>
+      </table>
+      <p>Fonts are served from this repository. Manrope and Fraunces use the SIL Open Font License. The licence files are in <code>assets/fonts/</code>. The fallback fonts are the device sans serif and Georgia.</p>
+    </section>
+
+    <section aria-labelledby="layout-title">
+      <h2 id="layout-title">Layout and mobile</h2>
+      <ul>
+        <li>Use a maximum page width of 1120 px, with gutters from 20 to 64 px.</li>
+        <li>Use spacing in steps of 4 or 8 px. Give main sections 40 to 80 px of space.</li>
+        <li>At 1000 px and below, move the OneGLP links beneath its description.</li>
+        <li>At 720 px and below, stack the hero and app sections. Put the document contents list below the article.</li>
+        <li>At 380 px and below, let the header navigation take a separate row.</li>
+        <li>Use at least 44 px for navigation and action links. Do not make small icons the only way to open a page.</li>
+        <li>Check widths of 320, 390, 768, 1024 and 1440 px. Also check keyboard navigation, zoom and reduced motion.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="links-title">
+      <h2 id="links-title">Links and buttons</h2>
+      <div class="guide-links">
+        <a class="button" href="https://oneglp.app/">Visit OneGLP <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+        <a class="text-link" href="support.html">App support <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+        <a href="privacy.html">Privacy policy</a>
+      </div>
+      <p>Use one filled button for the main action in a section. Use text links for other actions. Keep a visible focus outline. External links open in the same tab so the browser Back button works normally.</p>
+    </section>
+
+    <section aria-labelledby="artwork-title">
+      <h2 id="artwork-title">App artwork</h2>
+      <div class="asset-example">
+        <img src="assets/oneglp-icon.webp" alt="OneGLP app icon" width="400" height="400">
+        <img src="assets/taekwondo-icon.webp" alt="ITF Taekwondo Theory app icon" width="400" height="400">
+        <img src="assets/worksheets-icon.webp" alt="Times Tables Worksheets app icon" width="400" height="400">
+      </div>
+      <p>These are the apps' own icons from their App Store listings. Keep their colours and proportions. On the homepage they sit beside the app names, so empty alt text avoids reading the name twice.</p>
+      <ul>
+        <li><a href="https://apps.apple.com/app/id6761775005">OneGLP App Store listing</a></li>
+        <li><a href="https://apps.apple.com/app/id6761344519">ITF Taekwondo Theory App Store listing</a></li>
+        <li><a href="https://apps.apple.com/app/id6761299614">Times Tables Worksheets App Store listing</a></li>
+      </ul>
+      <p>The fonts were taken from OneGLP's public website. Serve the icons and fonts locally so the pages do not depend on another website to render.</p>
+    </section>
+
+    <section aria-labelledby="writing-title">
+      <h2 id="writing-title">Writing rules</h2>
+      <p>These are the owner's hard rules. They also apply to future changes and are saved in <code>AGENTS.md</code>.</p>
+      <ul>
+        <li>No em dashes. Use full stops, commas or separate sentences.</li>
+        <li>Use simple language. Keep explanations short and direct.</li>
+        <li>No stock explainers such as “the important thing is” or “what I take from it is”.</li>
+        <li>No wording that sounds generated by AI. Remove filler, inflated claims and repeated slogans.</li>
+        <li>No slogans made from a list of verbs. Use a heading such as “Apps by sjgoodapps”.</li>
+        <li>Describe verified app features. Do not invent ratings, awards, testimonials or health outcomes.</li>
+        <li>Use OneGLP as the product name and <a href="https://oneglp.app/">oneglp.app</a> as its website.</li>
+        <li>Keep the support and privacy wording. Ask the owner before correcting a content error.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="maintenance-title">
+      <h2 id="maintenance-title">Site files</h2>
+      <p>The public pages are <code>index.html</code>, <code>support.html</code> and <code>privacy.html</code>. They use the same stylesheet. This style guide is a design reference and is not part of the customer navigation.</p>
+      <p>Use relative links and asset paths. The site is hosted beneath <code>/sjgoodapps/</code> on GitHub Pages. No package install or build step is needed.</p>
+      <p><code>GithubSupportPrivacy/</code> contains older page copies. They are outside this redesign. Check with the owner before changing or removing them.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>sjgoodapps · Apps for iPhone and iPad.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
